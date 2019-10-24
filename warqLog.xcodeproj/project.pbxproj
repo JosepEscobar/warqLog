@@ -13,10 +13,11 @@
 		4853BC412361F65B00C2246D /* WarqLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4853BC3F2361F65B00C2246D /* WarqLog.swift */; };
 		4853BC432361F6A100C2246D /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4853BC422361F6A100C2246D /* DateExtensions.swift */; };
 		4853BC442361F6A100C2246D /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4853BC422361F6A100C2246D /* DateExtensions.swift */; };
-		48E980F82361FC1F00FC7DC3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48E980F72361FC1F00FC7DC3 /* Launch Screen.storyboard */; };
+		48E980F82361FC1F00FC7DC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48E980F72361FC1F00FC7DC3 /* LaunchScreen.storyboard */; };
 		48E980FA2361FC2B00FC7DC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48E980F92361FC2B00FC7DC3 /* Main.storyboard */; };
 		48E980FC2362109300FC7DC3 /* WarqLogEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E980FB2362109300FC7DC3 /* WarqLogEvent.swift */; };
 		48E980FD2362111400FC7DC3 /* WarqLogEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E980FB2362109300FC7DC3 /* WarqLogEvent.swift */; };
+		48E980FF236212E100FC7DC3 /* warqLog.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 48E980FE236212E100FC7DC3 /* warqLog.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +40,10 @@
 		4853BC3E2361F3C400C2246D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4853BC3F2361F65B00C2246D /* WarqLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarqLog.swift; sourceTree = "<group>"; };
 		4853BC422361F6A100C2246D /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
-		48E980F72361FC1F00FC7DC3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		48E980F72361FC1F00FC7DC3 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48E980F92361FC2B00FC7DC3 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		48E980FB2362109300FC7DC3 /* WarqLogEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarqLogEvent.swift; sourceTree = "<group>"; };
+		48E980FE236212E100FC7DC3 /* warqLog.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = warqLog.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		4853BC042361F32500C2246D = {
 			isa = PBXGroup;
 			children = (
+				48E980FE236212E100FC7DC3 /* warqLog.podspec */,
 				4853BC3E2361F3C400C2246D /* README.md */,
 				4853BC0F2361F32500C2246D /* warqLog */,
 				4853BC242361F32700C2246D /* warqLogTests */,
@@ -89,7 +92,7 @@
 				4853BC3F2361F65B00C2246D /* WarqLog.swift */,
 				48E980FB2362109300FC7DC3 /* WarqLogEvent.swift */,
 				4853BC422361F6A100C2246D /* DateExtensions.swift */,
-				48E980F72361FC1F00FC7DC3 /* Launch Screen.storyboard */,
+				48E980F72361FC1F00FC7DC3 /* LaunchScreen.storyboard */,
 				48E980F92361FC2B00FC7DC3 /* Main.storyboard */,
 			);
 			path = warqLog;
@@ -185,8 +188,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48E980F82361FC1F00FC7DC3 /* Launch Screen.storyboard in Resources */,
+				48E980F82361FC1F00FC7DC3 /* LaunchScreen.storyboard in Resources */,
 				48E980FA2361FC2B00FC7DC3 /* Main.storyboard in Resources */,
+				48E980FF236212E100FC7DC3 /* warqLog.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
