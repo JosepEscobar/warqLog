@@ -3,7 +3,7 @@
 
 # Installation
 
-Add my private Specs source to download library from my Private Repo:
+Add my private Specs source on your Podfile to download warqLog library from my private repo:
 
 You can use HTTP or SSH
 ```sh
@@ -34,7 +34,7 @@ import warqLog
 ╘════════════ END: TAG ════════════╛
 ```
 
-# Usage!
+# Usage
 #### Warning
 ```swift
 WarqLog.warning("warning message")
