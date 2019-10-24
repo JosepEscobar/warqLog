@@ -8,23 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		4853BC112361F32500C2246D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4853BC102361F32500C2246D /* AppDelegate.swift */; };
-		4853BC132361F32500C2246D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4853BC122361F32500C2246D /* SceneDelegate.swift */; };
-		4853BC152361F32500C2246D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4853BC142361F32500C2246D /* ViewController.swift */; };
-		4853BC182361F32500C2246D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4853BC162361F32500C2246D /* Main.storyboard */; };
-		4853BC1B2361F32700C2246D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4853BC192361F32700C2246D /* LaunchScreen.storyboard */; };
 		4853BC262361F32700C2246D /* warqLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4853BC252361F32700C2246D /* warqLogTests.swift */; };
-		4853BC312361F32700C2246D /* warqLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4853BC302361F32700C2246D /* warqLogUITests.swift */; };
+		4853BC402361F65B00C2246D /* WarqLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4853BC3F2361F65B00C2246D /* WarqLog.swift */; };
+		4853BC412361F65B00C2246D /* WarqLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4853BC3F2361F65B00C2246D /* WarqLog.swift */; };
+		4853BC432361F6A100C2246D /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4853BC422361F6A100C2246D /* DateExtensions.swift */; };
+		4853BC442361F6A100C2246D /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4853BC422361F6A100C2246D /* DateExtensions.swift */; };
+		48E980F82361FC1F00FC7DC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48E980F72361FC1F00FC7DC3 /* LaunchScreen.storyboard */; };
+		48E980FA2361FC2B00FC7DC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48E980F92361FC2B00FC7DC3 /* Main.storyboard */; };
+		48E980FC2362109300FC7DC3 /* WarqLogEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E980FB2362109300FC7DC3 /* WarqLogEvent.swift */; };
+		48E980FD2362111400FC7DC3 /* WarqLogEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E980FB2362109300FC7DC3 /* WarqLogEvent.swift */; };
+		48E980FF236212E100FC7DC3 /* warqLog.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 48E980FE236212E100FC7DC3 /* warqLog.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		4853BC222361F32700C2246D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4853BC052361F32500C2246D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4853BC0C2361F32500C2246D;
-			remoteInfo = warqLog;
-		};
-		4853BC2D2361F32700C2246D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4853BC052361F32500C2246D /* Project object */;
 			proxyType = 1;
@@ -36,18 +33,17 @@
 /* Begin PBXFileReference section */
 		4853BC0D2361F32500C2246D /* warqLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = warqLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4853BC102361F32500C2246D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4853BC122361F32500C2246D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4853BC142361F32500C2246D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4853BC172361F32500C2246D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4853BC1A2361F32700C2246D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4853BC1C2361F32700C2246D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4853BC212361F32700C2246D /* warqLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = warqLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4853BC252361F32700C2246D /* warqLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warqLogTests.swift; sourceTree = "<group>"; };
 		4853BC272361F32700C2246D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4853BC2C2361F32700C2246D /* warqLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = warqLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4853BC302361F32700C2246D /* warqLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warqLogUITests.swift; sourceTree = "<group>"; };
-		4853BC322361F32700C2246D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4853BC3E2361F3C400C2246D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4853BC3F2361F65B00C2246D /* WarqLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarqLog.swift; sourceTree = "<group>"; };
+		4853BC422361F6A100C2246D /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		48E980F72361FC1F00FC7DC3 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48E980F92361FC2B00FC7DC3 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		48E980FB2362109300FC7DC3 /* WarqLogEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarqLogEvent.swift; sourceTree = "<group>"; };
+		48E980FE236212E100FC7DC3 /* warqLog.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = warqLog.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,23 +61,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4853BC292361F32700C2246D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		4853BC042361F32500C2246D = {
 			isa = PBXGroup;
 			children = (
+				48E980FE236212E100FC7DC3 /* warqLog.podspec */,
 				4853BC3E2361F3C400C2246D /* README.md */,
 				4853BC0F2361F32500C2246D /* warqLog */,
 				4853BC242361F32700C2246D /* warqLogTests */,
-				4853BC2F2361F32700C2246D /* warqLogUITests */,
 				4853BC0E2361F32500C2246D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +80,6 @@
 			children = (
 				4853BC0D2361F32500C2246D /* warqLog.app */,
 				4853BC212361F32700C2246D /* warqLogTests.xctest */,
-				4853BC2C2361F32700C2246D /* warqLogUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,11 +88,12 @@
 			isa = PBXGroup;
 			children = (
 				4853BC102361F32500C2246D /* AppDelegate.swift */,
-				4853BC122361F32500C2246D /* SceneDelegate.swift */,
-				4853BC142361F32500C2246D /* ViewController.swift */,
-				4853BC162361F32500C2246D /* Main.storyboard */,
-				4853BC192361F32700C2246D /* LaunchScreen.storyboard */,
 				4853BC1C2361F32700C2246D /* Info.plist */,
+				4853BC3F2361F65B00C2246D /* WarqLog.swift */,
+				48E980FB2362109300FC7DC3 /* WarqLogEvent.swift */,
+				4853BC422361F6A100C2246D /* DateExtensions.swift */,
+				48E980F72361FC1F00FC7DC3 /* LaunchScreen.storyboard */,
+				48E980F92361FC2B00FC7DC3 /* Main.storyboard */,
 			);
 			path = warqLog;
 			sourceTree = "<group>";
@@ -116,15 +105,6 @@
 				4853BC272361F32700C2246D /* Info.plist */,
 			);
 			path = warqLogTests;
-			sourceTree = "<group>";
-		};
-		4853BC2F2361F32700C2246D /* warqLogUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4853BC302361F32700C2246D /* warqLogUITests.swift */,
-				4853BC322361F32700C2246D /* Info.plist */,
-			);
-			path = warqLogUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +145,6 @@
 			productReference = 4853BC212361F32700C2246D /* warqLogTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4853BC2B2361F32700C2246D /* warqLogUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4853BC3B2361F32700C2246D /* Build configuration list for PBXNativeTarget "warqLogUITests" */;
-			buildPhases = (
-				4853BC282361F32700C2246D /* Sources */,
-				4853BC292361F32700C2246D /* Frameworks */,
-				4853BC2A2361F32700C2246D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4853BC2E2361F32700C2246D /* PBXTargetDependency */,
-			);
-			name = warqLogUITests;
-			productName = warqLogUITests;
-			productReference = 4853BC2C2361F32700C2246D /* warqLogUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +159,6 @@
 						CreatedOnToolsVersion = 11.0;
 					};
 					4853BC202361F32700C2246D = {
-						CreatedOnToolsVersion = 11.0;
-						TestTargetID = 4853BC0C2361F32500C2246D;
-					};
-					4853BC2B2361F32700C2246D = {
 						CreatedOnToolsVersion = 11.0;
 						TestTargetID = 4853BC0C2361F32500C2246D;
 					};
@@ -221,7 +179,6 @@
 			targets = (
 				4853BC0C2361F32500C2246D /* warqLog */,
 				4853BC202361F32700C2246D /* warqLogTests */,
-				4853BC2B2361F32700C2246D /* warqLogUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,19 +188,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4853BC182361F32500C2246D /* Main.storyboard in Resources */,
-				4853BC1B2361F32700C2246D /* LaunchScreen.storyboard in Resources */,
+				48E980F82361FC1F00FC7DC3 /* LaunchScreen.storyboard in Resources */,
+				48E980FA2361FC2B00FC7DC3 /* Main.storyboard in Resources */,
+				48E980FF236212E100FC7DC3 /* warqLog.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4853BC1F2361F32700C2246D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4853BC2A2361F32700C2246D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -257,9 +208,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4853BC152361F32500C2246D /* ViewController.swift in Sources */,
+				48E980FC2362109300FC7DC3 /* WarqLogEvent.swift in Sources */,
 				4853BC112361F32500C2246D /* AppDelegate.swift in Sources */,
-				4853BC132361F32500C2246D /* SceneDelegate.swift in Sources */,
+				4853BC402361F65B00C2246D /* WarqLog.swift in Sources */,
+				4853BC432361F6A100C2246D /* DateExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,15 +219,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48E980FD2362111400FC7DC3 /* WarqLogEvent.swift in Sources */,
 				4853BC262361F32700C2246D /* warqLogTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4853BC282361F32700C2246D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4853BC312361F32700C2246D /* warqLogUITests.swift in Sources */,
+				4853BC412361F65B00C2246D /* WarqLog.swift in Sources */,
+				4853BC442361F6A100C2246D /* DateExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,31 +234,7 @@
 			target = 4853BC0C2361F32500C2246D /* warqLog */;
 			targetProxy = 4853BC222361F32700C2246D /* PBXContainerItemProxy */;
 		};
-		4853BC2E2361F32700C2246D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4853BC0C2361F32500C2246D /* warqLog */;
-			targetProxy = 4853BC2D2361F32700C2246D /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		4853BC162361F32500C2246D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4853BC172361F32500C2246D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4853BC192361F32700C2246D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4853BC1A2361F32700C2246D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4853BC332361F32700C2246D /* Debug */ = {
@@ -431,8 +354,9 @@
 		4853BC362361F32700C2246D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQZ7G5MLVC;
 				INFOPLIST_FILE = warqLog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -440,6 +364,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.josepescobar.warqLog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,8 +373,9 @@
 		4853BC372361F32700C2246D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQZ7G5MLVC;
 				INFOPLIST_FILE = warqLog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,6 +383,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.josepescobar.warqLog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -504,44 +431,6 @@
 			};
 			name = Release;
 		};
-		4853BC3C2361F32700C2246D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = warqLogUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.josepescobar.warqLogUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = warqLog;
-			};
-			name = Debug;
-		};
-		4853BC3D2361F32700C2246D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = warqLogUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.josepescobar.warqLogUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = warqLog;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -568,15 +457,6 @@
 			buildConfigurations = (
 				4853BC392361F32700C2246D /* Debug */,
 				4853BC3A2361F32700C2246D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4853BC3B2361F32700C2246D /* Build configuration list for PBXNativeTarget "warqLogUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4853BC3C2361F32700C2246D /* Debug */,
-				4853BC3D2361F32700C2246D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
