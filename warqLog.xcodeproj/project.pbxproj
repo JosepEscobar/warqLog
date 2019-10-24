@@ -15,6 +15,8 @@
 		4853BC442361F6A100C2246D /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4853BC422361F6A100C2246D /* DateExtensions.swift */; };
 		48E980F82361FC1F00FC7DC3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48E980F72361FC1F00FC7DC3 /* Launch Screen.storyboard */; };
 		48E980FA2361FC2B00FC7DC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48E980F92361FC2B00FC7DC3 /* Main.storyboard */; };
+		48E980FC2362109300FC7DC3 /* WarqLogEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E980FB2362109300FC7DC3 /* WarqLogEvent.swift */; };
+		48E980FD2362111400FC7DC3 /* WarqLogEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E980FB2362109300FC7DC3 /* WarqLogEvent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,7 @@
 		4853BC422361F6A100C2246D /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
 		48E980F72361FC1F00FC7DC3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		48E980F92361FC2B00FC7DC3 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		48E980FB2362109300FC7DC3 /* WarqLogEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarqLogEvent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,7 @@
 				4853BC102361F32500C2246D /* AppDelegate.swift */,
 				4853BC1C2361F32700C2246D /* Info.plist */,
 				4853BC3F2361F65B00C2246D /* WarqLog.swift */,
+				48E980FB2362109300FC7DC3 /* WarqLogEvent.swift */,
 				4853BC422361F6A100C2246D /* DateExtensions.swift */,
 				48E980F72361FC1F00FC7DC3 /* Launch Screen.storyboard */,
 				48E980F92361FC2B00FC7DC3 /* Main.storyboard */,
@@ -200,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48E980FC2362109300FC7DC3 /* WarqLogEvent.swift in Sources */,
 				4853BC112361F32500C2246D /* AppDelegate.swift in Sources */,
 				4853BC402361F65B00C2246D /* WarqLog.swift in Sources */,
 				4853BC432361F6A100C2246D /* DateExtensions.swift in Sources */,
@@ -210,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48E980FD2362111400FC7DC3 /* WarqLogEvent.swift in Sources */,
 				4853BC262361F32700C2246D /* warqLogTests.swift in Sources */,
 				4853BC412361F65B00C2246D /* WarqLog.swift in Sources */,
 				4853BC442361F6A100C2246D /* DateExtensions.swift in Sources */,
