@@ -47,6 +47,7 @@
 		4853BC2C2361F32700C2246D /* warqLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = warqLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4853BC302361F32700C2246D /* warqLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warqLogUITests.swift; sourceTree = "<group>"; };
 		4853BC322361F32700C2246D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4853BC3E2361F3C400C2246D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 		4853BC042361F32500C2246D = {
 			isa = PBXGroup;
 			children = (
+				4853BC3E2361F3C400C2246D /* README.md */,
 				4853BC0F2361F32500C2246D /* warqLog */,
 				4853BC242361F32700C2246D /* warqLogTests */,
 				4853BC2F2361F32700C2246D /* warqLogUITests */,
