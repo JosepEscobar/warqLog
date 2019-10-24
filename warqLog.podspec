@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name          = "warqLog"
-    s.version       = "0.0.1"
+    s.version       = "0.0.2"
     s.summary       = "Wallapop Log Artifact for Aquitecture framework"
     s.description  = <<-DESC
     "A test project to create a Log Artifact for Aquitecture framework"
